@@ -24,9 +24,9 @@ spec:
   policy:
     # Define a policy that will stop the reconciliation loop if the operator detects
     # a destructive change such as dropping a column or table.
-    lint:
-      destructive:
-        error: true
+    # lint:
+    #   destructive:
+    #     error: true
     # Define a policy that omits DROP COLUMN changes from any produced plan.
     diff:
       skip:
