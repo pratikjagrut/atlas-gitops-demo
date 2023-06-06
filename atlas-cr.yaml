@@ -17,6 +17,7 @@ spec:
         name varchar(255) not null,
         email varchar(255) unique not null,
         short_bio varchar(255) not null,
+        surname varchar(255) not null,
         primary key (id)
       );
   # Define policies that control how the operator will apply changes to the target database.
